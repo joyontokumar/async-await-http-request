@@ -12,6 +12,7 @@ const Data = {
     email: "engr.joyoyntr@gmail.com",
     phone: "018237424"
 }
+// post data
 http.post("https://jsonplaceholder.typicode.com/users", Data)
     .then(data => console.log(data))
     .then(err => console.log(err))
